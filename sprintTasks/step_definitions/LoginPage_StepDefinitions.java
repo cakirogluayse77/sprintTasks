@@ -32,7 +32,7 @@ public class LoginPage_StepDefinitions {
     @When("I click on the {string} button")
     public void i_click_on_the_button(String string) {
         loginPage.loginButton.click();
-        // actions.moveToElement(loginPage.loginButton).click().perform();
+         actions.moveToElement(loginPage.loginButton).click().perform();
 
     }
 
