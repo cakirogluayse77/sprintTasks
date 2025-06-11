@@ -60,4 +60,10 @@ public class LoginPage_StepDefinitions {
     @When("the user selects {int} desktop versions")
     public void theUserSelectsDesktopVersions(int arg0) {
     }
+
+
+    @Then("the user should be able to download the desktop app for each version")
+    public void theUserShouldBeAbleToDownloadTheDesktopAppForEachVersion() {
+
+    }
 }
